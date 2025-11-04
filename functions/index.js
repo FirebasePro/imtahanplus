@@ -1,3 +1,8 @@
+/**
+ * Cloud Functions for İmtahan+ app
+ * Отправляет push-уведомления пользователям через FCM
+ */
+
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 
