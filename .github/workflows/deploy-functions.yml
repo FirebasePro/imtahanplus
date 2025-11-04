@@ -29,9 +29,7 @@ jobs:
         run: npm install
       
       - name: Deploy to Firebase
-        run: |
-          firebase use imtahan-plus1
-          firebase deploy --only functions --token ${{ secrets.FIREBASE_TOKEN }}
+        run: firebase deploy --only functions --token ${{ secrets.FIREBASE_TOKEN }}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
