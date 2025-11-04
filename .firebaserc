@@ -1,6 +1,5 @@
 {
-  "projects": {
-    "default": "imtahan-plus1"
+  "functions": {
+    "source": "functions"
   }
 }
-
